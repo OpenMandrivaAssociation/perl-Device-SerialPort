@@ -54,8 +54,6 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %doc README Changes
-%{_mandir}/man3/*
+%{_mandir}/man?/*
 %perl_vendorlib/*
-/usr/bin/modemtest
-/usr/share/man/man1/modemtest.1.lzma
-
+%{_bindir}/modemtest
