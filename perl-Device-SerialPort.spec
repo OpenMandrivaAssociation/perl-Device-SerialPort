@@ -57,3 +57,26 @@ rm -rf %buildroot
 %{_mandir}/man?/*
 %perl_vendorlib/*
 %{_bindir}/modemtest
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.40.0-4
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Sun May 29 2011 Funda Wang <fwang@mandriva.org> 1.40.0-3
++ Revision: 681506
+- update file list
+- mass rebuild
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 1.40.0-2mdv2011.0
++ Revision: 555795
+- rebuild for perl 5.12
+
+* Wed Dec 02 2009 Jérôme Quelin <jquelin@mandriva.org> 1.40.0-1mdv2010.1
++ Revision: 472627
+- import perl-Device-SerialPort
+
+
+* Wed Dec 02 2009 cpan2dist 1.04-1mdv
+- initial mdv release, generated with cpan2dist
